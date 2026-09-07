@@ -12,7 +12,7 @@ export function Footer() {
             <div className="flex items-center">
   <img
     src="/logo.png"
-    alt="Rabia Kalar Logo"
+    alt="SANA FAISAL Logo"
     className="h-auto w-[150px] max-w-full object-contain sm:w-[200px] md:w-[220px] lg:w-[240px]"
   />
 </div>
@@ -35,7 +35,7 @@ export function Footer() {
                 </Link>
               </Button>
               <Button size="icon" variant="ghost" asChild>
-                <Link href="mailto:rabiakb4545@gmail.com">
+                <Link href="mailto:mrsfaizeekhan21@gmail.com">
                   <Mail className="h-4 w-4" />
                 </Link>
               </Button>
@@ -90,10 +90,10 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li>
-                <span className="text-muted-foreground">rabiakb4545@gmail.com</span>
+                <span className="text-muted-foreground">mrsfaizeekhan21@gmail.com</span>
               </li>
               <li>
-                <span className="text-muted-foreground">+92 3142013682</span>
+                <span className="text-muted-foreground">+92336 2376426</span>
               </li>
               <li>
                 <span className="text-muted-foreground">Karachi, Sindh, Pakistan</span>
@@ -103,7 +103,7 @@ export function Footer() {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Rabia Kalar. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} SANA FAISAL. All rights reserved.</p>
         </div>
       </div>
     </footer>

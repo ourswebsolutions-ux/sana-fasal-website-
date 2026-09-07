@@ -21,13 +21,13 @@ import { Footer } from "@/components/footer"
 import { ExternalLink, ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Rabia Kalar | SEO Content Strategist & Website Copywriter Portfolio",
+  title: "SANA FAISAL | SEO Content Strategist & Website Copywriter Portfolio",
   description:
-    "Explore Rabia Kalar's portfolio featuring SEO content strategy, website copywriting, blog writing, landing page optimization, brand storytelling, and content for luxury, B2B, and lifestyle brands.",
+    "Explore SANA FAISAL's portfolio featuring SEO content strategy, website copywriting, blog writing, landing page optimization, brand storytelling, and content for luxury, B2B, and lifestyle brands.",
   keywords: [
-    "Rabia Kalar portfolio",
-    "Rabia Kalar SEO content strategist",
-    "Rabia Kalar website copywriter",
+    "SANA FAISAL portfolio",
+    "SANA FAISAL SEO content strategist",
+    "SANA FAISAL website copywriter",
     "SEO content strategy portfolio",
     "website copywriter",
     "content strategist Pakistan",
@@ -39,11 +39,11 @@ export const metadata: Metadata = {
     "brand storytelling",
     "SEO content writing",
   ],
-  authors: [{ name: "Rabia Kalar" }],
+  authors: [{ name: "SANA FAISAL" }],
   openGraph: {
-    title: "Rabia Kalar | SEO Content Strategist & Website Copywriter Portfolio",
+    title: "SANA FAISAL | SEO Content Strategist & Website Copywriter Portfolio",
     description:
-      "Explore selected SEO content, website copy, blog writing, brand storytelling, and content strategy work by Rabia Kalar.",
+      "Explore selected SEO content, website copy, blog writing, brand storytelling, and content strategy work by SANA FAISAL.",
     type: "website",
     url: "https://storycup.vercel.app/portfolio",
     images: [
@@ -51,14 +51,14 @@ export const metadata: Metadata = {
         url: "/contentwriterhomepage.jpeg",
         width: 1200,
         height: 630,
-        alt: "Rabia Kalar - SEO Content Strategist & Website Copywriter",
+        alt: "SANA FAISAL - SEO Content Strategist & Website Copywriter",
       },
     ],
-    siteName: "Rabia Kalar Portfolio",
+    siteName: "SANA FAISAL Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rabia Kalar | SEO Content Strategist & Website Copywriter",
+    title: "SANA FAISAL | SEO Content Strategist & Website Copywriter",
     description:
       "Selected work in SEO content strategy, website copywriting, blog writing, landing pages, and brand storytelling.",
     images: ["/contentwriterhomepage.jpeg"],
@@ -81,10 +81,10 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      name: "Rabia Kalar's Content Strategy Portfolio",
+      name: "SANA FAISAL's Content Strategy Portfolio",
       author: {
         "@type": "Person",
-        name: "Rabia Kalar",
+        name: "SANA FAISAL",
         jobTitle: "SEO Content Strategist | Website Copywriter | Content Marketing Specialist",
         url: "https://storycup.vercel.app",
       },
@@ -96,22 +96,23 @@ export const metadata: Metadata = {
 }
 
 
+
 const projects = [
   {
     id: 1,
-    title: "GetDigital – Digital Experiences & Web Development",
+    title: "SEO Content Strategy & Website Copywriting",
     description:
-      "SEO content strategy and website copy for GetDigital, a Dubai-based digital agency focused on brand identity, UI/UX design, frontend development, e-commerce solutions, AI solutions, CMS platforms, and custom web development.",
+      "Professional SEO content developed for a digital agency, including website copy, technology-focused articles, keyword-optimized content, and business-focused web copy designed to improve online visibility and audience engagement.",
     image:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
-    category: "SEO Content Strategy",
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
+    category: "SEO Content Writing",
     originalCategory: "Digital & Technology Content",
     technologies: [
-      "Website Content",
-      "SEO Content Strategy",
+      "SEO Content Writing",
+      "Website Copy",
+      "Keyword Optimization",
       "Technology Research",
-      "Brand Content",
-      "Web Development Content",
+      "B2B Content",
     ],
     liveUrl: "https://getdigital.ae/",
     featured: true,
@@ -119,19 +120,19 @@ const projects = [
 
   {
     id: 2,
-    title: "Diamonds by Pelvi – Luxury Jewellery E-commerce",
+    title: "Luxury Jewellery Product & Web Content",
     description:
-      "High-converting website copy and SEO content for a luxury jewellery e-commerce brand featuring engagement rings, bridal collections, necklaces, pendants, bracelets, earrings, lab-grown diamonds, gifting, and bespoke jewellery services.",
+      "High-quality content created for a luxury jewellery e-commerce brand, covering product descriptions, jewellery collections, buying guides, website copy, and SEO-focused content designed to inform customers and support online sales.",
     image:
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1200&q=80",
-    category: "Luxury Brand Content",
+      "https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=1200&q=80",
+    category: "Product & SEO Writing",
     originalCategory: "Luxury Jewellery & E-commerce",
     technologies: [
-      "E-commerce Content",
+      "Product Descriptions",
       "SEO Writing",
-      "Product Content",
-      "Luxury Brand Storytelling",
+      "E-commerce Content",
       "Product Research",
+      "Web Copy",
     ],
     liveUrl: "https://diamondsbypelvi.com/",
     featured: true,
@@ -139,19 +140,19 @@ const projects = [
 
   {
     id: 3,
-    title: "Lab Jewel Nation – Lab-Grown Diamond E-commerce",
+    title: "Lab-Grown Diamond Content & Blog Writing",
     description:
-      "SEO blogs, brand storytelling, and website copy for Lab Jewel Nation, a luxury lab-grown diamond jewellery brand showcasing collections, engagement rings, bracelets, earrings, necklaces, pendants, gifting products, and jewellery inspiration.",
+      "Research-driven SEO blogs, website content, product descriptions, and informative jewellery articles created for a lab-grown diamond brand, with a focus on search visibility, customer education, and engaging brand communication.",
     image:
-      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1200&q=80",
-    category: "Luxury Brand Content",
+      "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?auto=format&fit=crop&w=1200&q=80",
+    category: "Blog & Article Writing",
     originalCategory: "Jewellery & Product Content",
     technologies: [
-      "SEO Content",
+      "SEO Blog Writing",
+      "Article Writing",
       "Product Descriptions",
+      "Keyword Research",
       "E-commerce Writing",
-      "Luxury Positioning",
-      "Blog Content",
     ],
     liveUrl: "https://labjewelnation.ae/",
     featured: true,
@@ -159,19 +160,19 @@ const projects = [
 
   {
     id: 4,
-    title: "Style Codes – Personal Styling & Fashion Content",
+    title: "Fashion & Lifestyle Article Writing",
     description:
-      "Content strategy and copy for Style Codes, a luxury personal styling and shopping platform covering personal shopping, wardrobe editing, colour and style analysis, men's styling, workshops, presentations, fashion guides, and lifestyle content.",
+      "Engaging fashion and lifestyle content covering styling, shopping, wardrobe guidance, fashion trends, and lifestyle topics, written with strong research, audience awareness, and SEO-focused content practices.",
     image:
       "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1200&q=80",
-    category: "Lifestyle & Fashion",
+    category: "Fashion & Lifestyle Writing",
     originalCategory: "Fashion & Lifestyle Content",
     technologies: [
-      "SEO Content Writing",
-      "Fashion Writing",
-      "Lifestyle Content",
+      "Article Writing",
       "Blog Writing",
-      "Brand Storytelling",
+      "SEO Content",
+      "Lifestyle Writing",
+      "Content Research",
     ],
     liveUrl: "https://www.style-codes.com/",
     featured: true,
@@ -179,18 +180,18 @@ const projects = [
 
   {
     id: 5,
-    title: "Luxury Jewellery Product & Collection Content",
+    title: "SEO Product Descriptions & Buying Guides",
     description:
-      "Research-driven product and collection content developed around luxury jewellery, engagement rings, bridal collections, lab-grown diamonds, gifting, bespoke designs, and customer-focused shopping experiences.",
+      "Detailed product-focused content covering jewellery products, buying considerations, product benefits, and customer-focused information designed to make e-commerce pages more informative, engaging, and search-friendly.",
     image:
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&q=80",
-    category: "Luxury Brand Content",
-    originalCategory: "Luxury & E-commerce Writing",
+      "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?auto=format&fit=crop&w=1200&q=80",
+    category: "Product Description Writing",
+    originalCategory: "E-commerce Writing",
     technologies: [
-      "Article Writing",
-      "Product Research",
+      "Product Descriptions",
+      "Buying Guides",
       "SEO Writing",
-      "Luxury Content",
+      "Product Research",
       "E-commerce Content",
     ],
     liveUrl: "https://diamondsbypelvi.com/",
@@ -199,19 +200,19 @@ const projects = [
 
   {
     id: 6,
-    title: "Fashion & Personal Styling Content",
+    title: "Fashion Trends & Lifestyle Blog Content",
     description:
-      "Professional fashion and lifestyle content covering personal styling, wardrobe organization, colour analysis, shopping guidance, signature style, event dressing, and fashion trends for a luxury audience.",
+      "Well-researched blog articles covering fashion trends, personal styling, wardrobe ideas, shopping guidance, and lifestyle topics, combining creative writing with SEO principles and audience-focused storytelling.",
     image:
-      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80",
-    category: "Lifestyle & Fashion",
+      "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=1200&q=80",
+    category: "Blog & Article Writing",
     originalCategory: "Fashion & Lifestyle Writing",
     technologies: [
-      "Fashion Writing",
-      "Lifestyle Writing",
-      "SEO Content",
       "Blog Writing",
+      "Article Writing",
+      "SEO Content",
       "Research",
+      "Lifestyle Content",
     ],
     liveUrl: "https://www.style-codes.com/",
     featured: false,
@@ -219,24 +220,25 @@ const projects = [
 
   {
     id: 7,
-    title: "Digital Agency & Technology Content",
+    title: "Technology & B2B SEO Content",
     description:
-      "Professional technology and B2B content covering digital transformation, brand identity, UI/UX design, CMS platforms, e-commerce solutions, AI solutions, mobile applications, and custom web development.",
+      "Professional technology and business content covering digital services, web development, technology solutions, business topics, and online services, written for SEO performance, audience engagement, and clear brand communication.",
     image:
-      "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80",
-    category: "SEO Content Strategy",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+    category: "B2B & Technology Writing",
     originalCategory: "Technology & Business Content",
     technologies: [
-      "Technology Writing",
+      "B2B Content Writing",
       "SEO Content",
       "Business Research",
-      "Web Content",
-      "B2B Content Strategy",
+      "Website Copy",
+      "Technology Writing",
     ],
     liveUrl: "https://getdigital.ae/",
     featured: false,
   },
-]
+];
+
 const categories = [
   "All",
   "SEO Content Strategy",

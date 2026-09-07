@@ -8,9 +8,9 @@ import { CheckCircle, Layers, Palette, Monitor, Printer, MessageCircle, Sparkles
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Rabia Kalar's Services - SEO Content Strategy & Website Copywriting",
+  title: "SANA FAISAL's Services - SEO Content Strategy & Website Copywriting",
   description:
-    "Hire Rabia Kalar for professional SEO content strategy, high-converting website copywriting, blog writing, landing page optimization, and email marketing services.",
+    "Hire SANA FAISAL for professional SEO content strategy, high-converting website copywriting, blog writing, landing page optimization, and email marketing services.",
   keywords: [
     "SEO content strategy",
     "website copywriting",
@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     "B2B content strategy",
     "luxury brand copywriting",
   ],
-  authors: [{ name: "Rabia Kalar" }],
+  authors: [{ name: "SANA FAISAL" }],
   openGraph: {
-    title: "Rabia Kalar's Services - SEO Content Strategy & Website Copywriting",
+    title: "SANA FAISAL's Services - SEO Content Strategy & Website Copywriting",
     description:
-      "Rabia Kalar offers expert SEO content strategy, website copywriting, blog writing, landing pages, and email marketing for B2B and luxury brands worldwide.",
+      "SANA FAISAL offers expert SEO content strategy, website copywriting, blog writing, landing pages, and email marketing for B2B and luxury brands worldwide.",
     type: "website",
     url: "https://storycup.vercel.app/services",
     images: [
@@ -35,16 +35,16 @@ export const metadata: Metadata = {
         url: "/services-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Rabia Kalar SEO Content & Copywriting Services",
+        alt: "SANA FAISAL SEO Content & Copywriting Services",
       },
     ],
-    siteName: "Rabia Kalar Portfolio",
+    siteName: "SANA FAISAL Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rabia Kalar's Services - SEO Content Strategy & Website Copywriting",
+    title: "SANA FAISAL's Services - SEO Content Strategy & Website Copywriting",
     description:
-      "Hire Rabia Kalar for professional SEO strategy, website copy, and content marketing services.",
+      "Hire SANA FAISAL for professional SEO strategy, website copy, and content marketing services.",
     images: ["/services-og-image.jpg"],
   },
   alternates: {
@@ -68,11 +68,11 @@ export const metadata: Metadata = {
       serviceType: "SEO Content Strategy & Website Copywriting",
       provider: {
         "@type": "Person",
-        name: "Rabia Kalar",
+        name: "SANA FAISAL",
       },
       url: "https://storycup.vercel.app/services",
       description:
-        "Rabia Kalar provides professional SEO content strategy, high-converting website copywriting, blog writing, landing page optimization, and email marketing for B2B and luxury brands globally.",
+        "SANA FAISAL provides professional SEO content strategy, high-converting website copywriting, blog writing, landing page optimization, and email marketing for B2B and luxury brands globally.",
       areaServed: ["Pakistan", "UAE", "UK", "USA", "Global"],
       offers: {
         "@type": "Offer",

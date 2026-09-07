@@ -23,67 +23,66 @@ import {
   X,
 } from "lucide-react"
 
+
 const blogPosts = [
   {
     id: 1,
-    title:
-      "Summative, Quality Improvement Project Improving Patient Safety and Service Efficiency in an NHS Acute Hospital Trust (1)",
+    title: "How SEO Content Writing Helps Businesses Improve Online Visibility",
     excerpt:
-      "A comprehensive academic project examining quality improvement strategies, patient safety, service efficiency, and opportunities for improving healthcare delivery within an NHS acute hospital trust.",
+      "A practical SEO-focused article explaining how well-researched, keyword-optimized content can improve search visibility, attract the right audience, and support long-term digital growth.",
     image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=80",
-    category: "Academic Writing",
-    date: "Academic Work",
-    readTime: "12 min read",
+      "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1200&q=80",
+    category: "SEO Content Writing",
+    date: "Published Work",
+    readTime: "8 min read",
     liveUrl:
       "https://drive.google.com/drive/folders/10Gef-39zypHbGdpDI4Lst4ftqHIOpfWT",
     featured: true,
-    client: "Academic Project",
+    client: "SEO Content Project",
   },
 
   {
     id: 2,
-    title: "Strategic Financial Ratio Analysis of ASOS Plc",
+    title: "The Importance of Keyword Research for Effective Content",
     excerpt:
-      "A detailed academic financial analysis evaluating key financial ratios, business performance, financial position, and strategic considerations of ASOS Plc.",
+      "An informative article exploring how keyword research and strategic optimization help content reach the right audience while improving relevance, discoverability, and search engine performance.",
     image:
-      "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80",
-    category: "Academic Writing",
-    date: "Academic Work",
-    readTime: "10 min read",
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80",
+    category: "SEO & Keyword Research",
+    date: "Published Work",
+    readTime: "7 min read",
     liveUrl:
       "https://drive.google.com/drive/folders/10Gef-39zypHbGdpDI4Lst4ftqHIOpfWT",
     featured: true,
-    client: "Academic Project",
+    client: "SEO Content Project",
   },
 
   {
     id: 3,
-    title:
-      "Kegel Exercises vs Jelqing Which Is Safe and Which Actually Works",
+    title: "How High-Quality Blog Content Builds Trust and Engagement",
     excerpt:
-      "A research-based article comparing Kegel exercises and jelqing, presenting information about their intended purposes, effectiveness, and important safety considerations.",
+      "A research-based article discussing the role of valuable blog content in educating audiences, building credibility, increasing engagement, and creating stronger connections between brands and readers.",
     image:
-      "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1200&q=80",
-    category: "Research & Article Writing",
+      "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1200&q=80",
+    category: "Blog & Article Writing",
     date: "Published Work",
     readTime: "8 min read",
     liveUrl:
       "https://drive.google.com/drive/folders/10Gef-39zypHbGdpDI4Lst4ftqHIOpfWT",
     featured: true,
-    client: "Academic Writing Project",
+    client: "Content Writing Project",
   },
 
   {
     id: 4,
-    title: "The Most Popular Diamond Jewellery Among UAE Luxury Buyers",
+    title: "How Product Descriptions Influence Online Buying Decisions",
     excerpt:
-      "An informative jewellery article exploring the most popular diamond jewellery choices among UAE luxury buyers, highlighting elegant styles, buying preferences, and timeless designs.",
+      "A conversion-focused article exploring how clear, persuasive, and informative product descriptions can communicate value, answer customer questions, and encourage confident purchasing decisions.",
     image:
-      "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=1200&q=80",
-    category: "Jewellery & Lifestyle Writing",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+    category: "Product Description Writing",
     date: "Published Work",
-    readTime: "8 min read",
+    readTime: "7 min read",
     liveUrl:
       "https://docs.google.com/document/d/12ZtfbluO16Tmj5hEY7VJSEAaW8v_YTPl-fhAxw82TJA/edit?tab=t.0#heading=h.y93sd6g5ro87",
     featured: true,
@@ -92,14 +91,14 @@ const blogPosts = [
 
   {
     id: 5,
-    title: "Gold Diamond Bracelets: Timeless Elegance for Every Occasion",
+    title: "Guest Posting: A Powerful Strategy for Building Online Authority",
     excerpt:
-      "A polished jewellery article exploring gold diamond bracelets, their timeless appeal, styling possibilities, and why they remain an elegant choice for every occasion.",
+      "An SEO-focused article explaining the value of guest posting and how relevant, high-quality contributions can support link-building campaigns, brand exposure, authority, and search visibility.",
     image:
-      "https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=1200&q=80",
-    category: "Jewellery & Lifestyle Writing",
+      "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?auto=format&fit=crop&w=1200&q=80",
+    category: "Guest Post Writing",
     date: "Published Work",
-    readTime: "7 min read",
+    readTime: "8 min read",
     liveUrl:
       "https://docs.google.com/document/d/1KnjNgY0aZ4KXhpsISdkXqNT9n7Ycu0yoYmuMxFvsmGg/edit?tab=t.0#heading=h.lho68ithun8k",
     featured: true,
@@ -108,12 +107,12 @@ const blogPosts = [
 
   {
     id: 6,
-    title: "The Role of Certification in Purchasing a Diamond Ring",
+    title: "The Role of SEO-Friendly Website Copy in Digital Growth",
     excerpt:
-      "A detailed guide explaining the importance of diamond certification when purchasing a ring, helping buyers understand quality, authenticity, grading, and informed jewellery decisions.",
+      "A detailed guide explaining how professionally written website copy can communicate a brand's message, improve search relevance, engage visitors, and support stronger online performance.",
     image:
-      "https://images.unsplash.com/photo-1605100804763-247f67b3557e?auto=format&fit=crop&w=1200&q=80",
-    category: "Jewellery & Buying Guide",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+    category: "Website Copywriting",
     date: "Published Work",
     readTime: "8 min read",
     liveUrl:
@@ -124,12 +123,12 @@ const blogPosts = [
 
   {
     id: 7,
-    title: "5 Wedding Fashion Trends in 2025 You Should Not Overlook",
+    title: "Creating Engaging Social Media and Marketing Content",
     excerpt:
-      "A trend-focused fashion article highlighting five important wedding fashion trends for 2025, covering stylish ideas and contemporary choices for memorable wedding celebrations.",
+      "A practical content marketing article exploring how creative, audience-focused social media content can strengthen brand communication, encourage engagement, and support wider marketing objectives.",
     image:
-      "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1200&q=80",
-    category: "Fashion & Lifestyle Writing",
+      "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1200&q=80",
+    category: "Social Media & Marketing Content",
     date: "Published Work",
     readTime: "7 min read",
     liveUrl:
@@ -137,7 +136,8 @@ const blogPosts = [
     featured: true,
     client: "Kashesh Global",
   },
-]
+];
+
 
 const categories = [
   "All",

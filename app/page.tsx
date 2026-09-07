@@ -1,3 +1,4 @@
+
 "use client";
 import Link from "next/link";
 import Image from "next/image";
@@ -18,11 +19,11 @@ import { Footer } from "@/components/footer";
 
 export default function HomePage() {
   const handleDownloadResume = async () => {
-    const response = await fetch("/RABIA-KALAR.pdf");
+    const response = await fetch("/SANA-FAISAL-Resume.pdf");
     const blob = await response.blob();
     const link = document.createElement("a");
     link.href = URL.createObjectURL(blob);
-    link.setAttribute("download", "RABIA-KALAR.pdf");
+    link.setAttribute("download", "SANA-FAISAL-Resume.pdf");
     link.style.display = "none";
     document.body.appendChild(link);
     link.click();
@@ -47,20 +48,23 @@ export default function HomePage() {
                 >
                   Available for freelance SEO & content projects
                 </Badge>
+
                 <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold tracking-tight break-words">
                   Hi, I'm{" "}
-                  <span className="text-primary">RABIA KALAR</span>
+                  <span className="text-primary">SANA FAISAL</span>
                 </h1>
+
                 <p className="text-lg sm:text-xl lg:text-2xl text-muted-foreground">
-                  SEO Content Strategist | Website Copywriter
+                  Content Writer & SEO Expert
                 </p>
+
                 <p className="text-base sm:text-lg text-muted-foreground max-w-lg">
-                  Highly skilled SEO Content Strategist, Email Marketer and
-                  Website Copywriter with 5+ years of experience specializing
-                  in B2B, digital marketing, and luxury lifestyle brands.
-                  Crafting high-converting website copy, SEO strategies, and
-                  email campaigns that improve visibility, engagement, and
-                  conversions.
+                  Accomplished Content Writer & SEO Expert with over 10 years
+                  of continuous freelance experience delivering high-quality,
+                  SEO-optimized content for diverse industries. Skilled in
+                  creative writing, blog articles, product descriptions, and
+                  social media content, with proven expertise in driving
+                  measurable online visibility through effective SEO strategies.
                 </p>
               </div>
 
@@ -70,6 +74,7 @@ export default function HomePage() {
                     View Portfolio <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </Button>
+
                 <Button
                   size="lg"
                   variant="outline"
@@ -78,6 +83,7 @@ export default function HomePage() {
                 >
                   <Link href="/contact">Contact Me</Link>
                 </Button>
+
                 <Button
                   size="lg"
                   variant="ghost"
@@ -90,7 +96,6 @@ export default function HomePage() {
               </div>
 
               <div className="flex gap-4">
-                
                 <Button size="icon" variant="ghost" asChild>
                   <Link
                     href="https://www.linkedin.com"
@@ -99,8 +104,9 @@ export default function HomePage() {
                     <Linkedin className="h-5 w-5" />
                   </Link>
                 </Button>
+
                 <Button size="icon" variant="ghost" asChild>
-                  <Link href="mailto:rabiakb4545@gmail.com">
+                  <Link href="mailto:mrsfaizeekhan21@gmail.com">
                     <Mail className="h-5 w-5" />
                   </Link>
                 </Button>
@@ -110,9 +116,10 @@ export default function HomePage() {
             <div className="relative mt-4 lg:mt-0">
               <div className="relative w-full max-w-[280px] sm:max-w-sm md:max-w-md mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-r from-primary to-primary/50 rounded-full blur-3xl opacity-20 animate-pulse" />
+
                 <Image
                   src="/contentwriterhomepage.jpeg?height=400&width=400"
-                  alt="RABIA KALAR"
+                  alt="SANA FAISAL"
                   width={400}
                   height={400}
                   className="relative rounded-full border-4 border-primary/30 shadow-2xl w-full h-auto"
@@ -128,11 +135,13 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-8 sm:mb-12">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
-              Featured Project
+              Featured Experience
             </h2>
+
             <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto px-1">
-              A showcase of my recent SEO content strategy and copywriting work
-              for premium lifestyle and luxury brands
+              A showcase of my professional content writing, SEO, guest
+              posting, and web content experience developed through more than
+              10 years of freelance work.
             </p>
           </div>
 
@@ -141,43 +150,48 @@ export default function HomePage() {
               <div className="relative h-48 sm:h-64 lg:h-auto min-h-[200px]">
                 <Image
                   src="/worldwideartical.jpg?height=400&width=600"
-                  alt="Featured Content Strategy Project"
+                  alt="Content Writing and SEO Experience"
                   fill
                   className="object-cover"
                 />
               </div>
+
               <CardContent className="p-5 sm:p-6 lg:p-8 flex flex-col justify-center">
                 <div className="space-y-4">
                   <Badge
                     variant="secondary"
                     className="bg-primary/10 text-primary border-primary/20"
                   >
-                    Luxury Brand Content
+                    Content Writing & SEO
                   </Badge>
+
                   <h3 className="text-xl sm:text-2xl font-bold break-words">
-                    Lab Jewel Nation: SEO Strategy & Luxury Brand Storytelling
+                    Freelance Content Writer & SEO Expert
                   </h3>
+
                   <p className="text-sm sm:text-base text-muted-foreground">
-                    Developed high-converting website copy, SEO blogs, and
-                    brand storytelling for a luxury lab-grown diamond jewellery
-                    brand — focusing on positioning, engagement, and conversion
-                    optimization.
+                    Over 10 years of continuous freelance experience creating
+                    SEO-friendly website content, blogs, product descriptions,
+                    guest posts, forum threads, business profiles, press
+                    releases, PPT presentations, and other digital content for
+                    local and international clients.
                   </p>
+
                   <div className="flex flex-wrap gap-2">
-                    <Badge variant="outline">SEO Strategy</Badge>
-                    <Badge variant="outline">Website Copy</Badge>
-                    <Badge variant="outline">Brand Storytelling</Badge>
-                    <Badge variant="outline">Luxury Positioning</Badge>
+                    <Badge variant="outline">SEO Content Writing</Badge>
+                    <Badge variant="outline">Blog & Article Writing</Badge>
+                    <Badge variant="outline">Guest Posts</Badge>
+                    <Badge variant="outline">Product Descriptions</Badge>
                   </div>
+
                   <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 pt-4">
                     <Button asChild className="w-full sm:w-auto">
-                      <Link
-                        href="https://rabiakb4545.wixsite.com/rabia-kalar"
-                        target="_blank"
-                      >
-                        View Project <ExternalLink className="ml-2 h-4 w-4" />
+                      <Link href="/portfolio">
+                        View Portfolio{" "}
+                        <ExternalLink className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
+
                     <Button
                       variant="outline"
                       asChild
@@ -200,25 +214,27 @@ export default function HomePage() {
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
               Skills & Expertise
             </h2>
+
             <p className="text-base sm:text-lg text-muted-foreground">
-              Content strategy and copywriting skills I use to drive results
+              Professional content writing, SEO, research, and digital
+              marketing skills developed through years of experience.
             </p>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4 md:gap-6 max-w-4xl mx-auto">
             {[
-              "SEO Strategy",
-              "Website Copy",
-              "Blog Writing",
-              "Landing Pages",
-              "Email Marketing",
-              "Brand Storytelling",
-              "WordPress",
-              "B2B Content",
-              "Luxury Brands",
-              "Content Planning",
-              "Conversion Copy",
-              "Digital Marketing",
+              "SEO Content Writing",
+              "Blog & Article Writing",
+              "Editing & Proofreading",
+              "Social Media Content",
+              "Guest Post Writing",
+              "Product Descriptions",
+              "Web Copy",
+              "Keyword Optimization",
+              "Research Skills",
+              "Project Management",
+              "Time Management",
+              "Creative Writing",
             ].map((skill) => (
               <Card
                 key={skill}
@@ -230,6 +246,7 @@ export default function HomePage() {
                       {skill.charAt(0)}
                     </span>
                   </div>
+
                   <p className="font-medium text-xs sm:text-sm leading-tight break-words">
                     {skill}
                   </p>

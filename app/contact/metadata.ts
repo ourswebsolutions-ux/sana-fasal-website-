@@ -1,9 +1,9 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "ContactRabia Kalar  - Best Content Writer in Pakistan",
+  title: "ContactSANA FAISAL  - Best Content Writer in Pakistan",
   description:
-    "ContactRabia Kalar  for top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
+    "ContactSANA FAISAL  for top content writing services in Pakistan, SEO content, and copywriting via WhatsApp or email.",
   keywords: [
     "content writer Karachi contact number",
     "content writer Karachi contact number WhatsApp",
@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     "content writer rates per word",
     "freelance content writer near me",
   ],
-  authors: [{ name: "Rabia Kalar  " }],
+  authors: [{ name: "SANA FAISAL  " }],
   openGraph: {
-    title: "ContactRabia Kalar  - Best Content Writer in Pakistan",
+    title: "ContactSANA FAISAL  - Best Content Writer in Pakistan",
     description:
-      "ReachRabia Kalar  for expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
+      "ReachSANA FAISAL  for expert content writing services, SEO content, and copywriting in Pakistan via WhatsApp or email.",
     type: "website",
     url: "https://yourwebsite.com/contact",
     images: [
@@ -38,16 +38,16 @@ export const metadata: Metadata = {
         url: "/contact-og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "ContactRabia Kalar  for Content Writing Services",
+        alt: "ContactSANA FAISAL  for Content Writing Services",
       },
     ],
-    siteName: "Rabia Kalar  Portfolio",
+    siteName: "SANA FAISAL  Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ContactRabia Kalar  - Content Writing Services",
+    title: "ContactSANA FAISAL  - Content Writing Services",
     description:
-      "Get in touch withRabia Kalar  for SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
+      "Get in touch withSANA FAISAL  for SEO content, blog writing, and copywriting services in Pakistan, USA, and Dubai.",
     images: ["/contact-og-image.jpg"],
   },
   alternates: {
@@ -68,12 +68,12 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Person",
-      name: "Rabia Kalar  ",
+      name: "SANA FAISAL  ",
       jobTitle: "Content Writer & SEO Copywriter",
       url: "https://yourwebsite.com/contact",
       sameAs: [
-        "https://www.linkedin.com/in/Rabia Kalar  ",
-        "https://twitter.com/Rabia Kalar  ",
+        "https://www.linkedin.com/in/SANA FAISAL  ",
+        "https://twitter.com/SANA FAISAL  ",
         "https://wa.me/yourwhatsappnumber",
       ],
       contactPoint: [
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
         },
       ],
       description:
-        "ContactRabia Kalar  , a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
+        "ContactSANA FAISAL  , a top content writer in Pakistan, for professional content writing services, including SEO content, blog writing, and copywriting, via WhatsApp or email.",
     }),
   },
 }
