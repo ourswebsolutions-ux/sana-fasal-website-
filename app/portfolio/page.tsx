@@ -242,9 +242,10 @@ const projects = [
 
 const categories = [
   "All",
-  "SEO Content Strategy",
-  "Luxury Brand Content",
-  "Lifestyle & Fashion",
+  "Digital Agency",
+  "Web Development",
+  "E-Commerce",
+  "Education",
 ]
 
 export default function PortfolioPage() {
